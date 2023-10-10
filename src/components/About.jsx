@@ -6,6 +6,7 @@ import {
     AiFillGithub,
 } from "react-icons/ai";
 import deved from '../assets/img/dev-ed-wave.png';
+import cv from './../assets/files/cv (1).pdf'
 const About = () => {
     return (
         <div id='about' className="text-center p-10 py-20">
@@ -31,6 +32,14 @@ const About = () => {
                 
                 
             </div>
+            <di className=''>
+                <a href={cv} download='cv'>
+                    <button className="md:w-36 mx-auto bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-6 rounded-lg mt-3 hover:shadow-lg transition duration-300">
+                        CV
+                    </button>
+                </a>
+
+            </di>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
                 <img src={deved} layout="fill" objectFit="cover" />
             </div>
