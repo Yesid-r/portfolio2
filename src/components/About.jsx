@@ -5,8 +5,9 @@ import {
     AiFillYoutube,
     AiFillGithub,
 } from "react-icons/ai";
-import deved from '../assets/img/dev-ed-wave.png';
-import cv from './../assets/files/cv (1).pdf'
+// import deved from '../assets/img/dev-ed-wave.png';
+import deved from '../assets/img/avatar.png'
+import cv from './../assets/files/cv.pdf'
 const About = () => {
     return (
         <div id='about' className="text-center p-10 py-20">
